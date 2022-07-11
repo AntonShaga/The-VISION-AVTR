@@ -396,10 +396,22 @@ img {
 
 .arrow-left {
   left: 30%;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.arrow-left:hover {
+  transform: scale(1.3);
 }
 
 .arrow-right {
   right: 30%;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.arrow-right:hover {
+  transform: scale(1.3);
 }
 
 .interior__grid {
